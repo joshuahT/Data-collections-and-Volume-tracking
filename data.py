@@ -1,11 +1,11 @@
 import requests
 
 
-def create_url():
+def program_url():
     return f"https://public-api.solscan.io/account/transactions"
 
 
-def get_params():
+def get_URLparams():
     query_params = {
         "account": "M2mx93ekt1fmXSVkTrUL9xVFHkmME8HTUi5Cyc5aF7K",
         "limit": 10,
